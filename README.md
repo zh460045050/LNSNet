@@ -55,10 +55,10 @@ The performance and complexity of methods for generating 100 superpixel on BSDS 
 
 If you find our work useful in your research, please cite:
 
-@InProceedings{Lei_2021_CVPR,
-  title = {Learning the Superpixel in a Non-iterative and Lifelong Manner},
-  author = {Zhu, Lei and She, Qi and Zhang, Bin and Lu, Yanye and Lu, Zhilin and Li, Duo and Hu, Jie},
-  booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  month = {June},
-  year = {2021}
-}
+@InProceedings\{Lei_2021_CVPR,
+  title = \{Learning the Superpixel in a Non-iterative and Lifelong Manner\},
+  author = \{Zhu, Lei and She, Qi and Zhang, Bin and Lu, Yanye and Lu, Zhilin and Li, Duo and Hu, Jie\},
+  booktitle = \{IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)\},
+  month = \{June\},
+  year = \{2021\}
+\}
