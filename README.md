@@ -1,8 +1,11 @@
 # LNSNet
+## Overview
 
 Official implementation of [Learning the Superpixel in a Non-iterative and Lifelong Manner][arxiv] (CVPR'21)
 
+
 ![avatar](pics/strategy.png)
+
 
 The proposed LNSNet views superpixel segmentation process of each image as **an independent pixel-level clustering task** and use **lifelong learning strategy** to train the superpixel segmentation network for a a series of images.
 
@@ -16,7 +19,9 @@ the indexes of seed nodes;
 3) **Gradient Rescaling Module (GRM)** that adaptively rescales the gradient for each weight parameter based on the channel and spatial context to avoid catastrophic forgetting
 for the sequential learning.
 
+
 ![avatar](pics/structures.png)
+
 
 ## Getting Started
 
@@ -39,4 +44,14 @@ python demo.py --n_spix $num_superpixel --img_path $input_img_path --check_path 
 ![avatar](pics/results.png)
 
 
+## Citation
 
+If you find our work useful in your research, please cite:
+
+@InProceedings{Lei_2021_CVPR,
+  title = {Learning the Superpixel in a Non-iterative and Lifelong Manner},
+  author = {Zhu, Lei and She, Qi and Zhang, Bin and Lu, Yanye and Lu, Zhilin and Li, Duo and Hu, Jie},
+  booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month = {June},
+  year = {2021}
+}
