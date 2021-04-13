@@ -3,6 +3,8 @@
 
 Official implementation of [Learning the Superpixel in a Non-iterative and Lifelong Manner][arxiv] (CVPR'21)
 
+### Learning Strategy
+
 <center>
 <img src="pics/strategy.png" width="80%" />
   
@@ -11,7 +13,7 @@ Official implementation of [Learning the Superpixel in a Non-iterative and Lifel
 
 The proposed LNSNet views superpixel segmentation process of each image as **an independent pixel-level clustering task** and use **lifelong learning strategy** to train the superpixel segmentation network for a a series of images.
 
-[arxiv]: https://arxiv.org/abs/2103.10681
+### Model Structure
 
 The structure of proposed LNS-Net shown in Fig. 3 contains three parts: 
 
@@ -62,3 +64,6 @@ booktitle = \{IEEE/CVF Conference on Computer Vision and Pattern Recognition (CV
 month = \{June\},</br>
 year = \{2021\}</br>
 \}
+
+
+[arxiv]: https://arxiv.org/abs/2103.10681
