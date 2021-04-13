@@ -31,7 +31,7 @@ for the sequential learning.
 
 Here we only release the model trained on BSDS dataset and corresponding code to utilizes it for superpixel segmentation. The whole training code will be coming soon.
 
-To uese the given model for superpixel segmentation:
+To uese the given model for generate superpixel:
 
 `git clone https://github.com/zh460045050/LNSNet`
 
