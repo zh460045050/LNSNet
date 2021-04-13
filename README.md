@@ -4,7 +4,7 @@
 Official implementation of [Learning the Superpixel in a Non-iterative and Lifelong Manner][arxiv] (CVPR'21)
 
 
-![avatar](pics/strategy.png)
+![avatar](pics/strategy.png){:width="70%"}
 
 
 The proposed LNSNet views superpixel segmentation process of each image as **an independent pixel-level clustering task** and use **lifelong learning strategy** to train the superpixel segmentation network for a a series of images.
@@ -20,7 +20,7 @@ the indexes of seed nodes;
 for the sequential learning.
 
 
-![avatar](pics/structures.png)
+![avatar](pics/structures.png){:width="70%"}
 
 
 ## Getting Started
@@ -29,19 +29,17 @@ Here we only release the model trained on BSDS dataset and corresponding code to
 
 To uese the given model for superpixel segmentation:
 
-'
-git clone https://github.com/zh460045050/LNSNet
+'git clone https://github.com/zh460045050/LNSNet'
 
-cd LNSNet
+'cd LNSNet'
 
-sh runDemo.sh
+'sh runDemo.sh'
 
 or
 
-python demo.py --n_spix $num_superpixel --img_path $input_img_path --check_path lnsnet_BSDS_checkpoint.pth
-'
+'python demo.py --n_spix $num_superpixel --img_path $input_img_path --check_path lnsnet_BSDS_checkpoint.pth'
 
-![avatar](pics/results.png)
+![avatar](pics/results.png){:width="50%"}
 
 
 ## Citation
