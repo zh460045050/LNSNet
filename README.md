@@ -5,6 +5,7 @@ Official implementation of [Learning the Superpixel in a Non-iterative and Lifel
 
 <center>
 <img src="pics/strategy.png" width="80%" />
+  
 </center>
 
 
@@ -22,6 +23,7 @@ for the sequential learning.
 
 <center>
 <img src="pics/structures.png" width="80%" />
+  
 </center>
 
 
@@ -41,9 +43,11 @@ or
 
 `python demo.py --n_spix $num_superpixel --img_path $input_img_path --check_path lnsnet_BSDS_checkpoint.pth`
 
+The performance and complexity of methods for generating 100 superpixel on BSDS test dataset with image size 481*321:
 
 <center>
 <img src="pics/results.png" width="50%" />
+
 </center>
 
 
