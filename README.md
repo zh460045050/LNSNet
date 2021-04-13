@@ -5,13 +5,12 @@ Official implementation of [Learning the Superpixel in a Non-iterative and Lifel
 
 ### Learning Strategy
 
+The proposed LNSNet views superpixel segmentation process of each image as **an independent pixel-level clustering task** and use **lifelong learning strategy** to train the superpixel segmentation network for a a series of images.
+
 <center>
 <img src="pics/strategy.png" width="80%" />
   
 </center>
-
-
-The proposed LNSNet views superpixel segmentation process of each image as **an independent pixel-level clustering task** and use **lifelong learning strategy** to train the superpixel segmentation network for a a series of images.
 
 ### Model Structure
 
